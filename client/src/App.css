@@ -1,0 +1,48 @@
+.app {}
+
+.container {
+  margin: auto 100px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1), -2px -2px 5px rgba(0, 0, 0, 0.1);
+  transform: scale(1.02);
+}
+
+.btn-primary {
+  background-color: rgba(0, 255, 255, 1);
+}
+
+.btn-secondary {
+  color: white;
+  background-color: rgba(75, 0, 130, .9);
+}
+
+.btn-success {
+  color: white;
+  background-color: rgba(50, 205, 50, 1);
+}
+
+.btn-danger {
+  color: white;
+  background-color: rgba(255, 0, 0, .8);
+}
+
+input {
+  padding: 12px 15px;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+input:active, input:focus {
+  outline: none;
+}

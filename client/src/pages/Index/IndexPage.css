@@ -1,0 +1,21 @@
+.index-page .controls {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.index-page .controls>* {
+  margin: auto 10px;
+}
+
+.charts-container {
+  display: flex;
+  justify-content: center;
+}
+
+.chart-name {
+  padding: 10px 20px;
+  width: 150px;
+  text-align: center;
+  border-radius: 5px;
+}

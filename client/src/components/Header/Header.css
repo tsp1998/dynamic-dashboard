@@ -1,0 +1,27 @@
+.header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  margin: 10px auto ;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, .1), -2px -2px 5px rgba(0, 0, 0, .1);
+}
+
+.brand {
+  width: 70%;
+}
+.brand span {
+  display: block;
+  width: 180px;
+  background: rgb(46, 7, 138);
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+.controls {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}

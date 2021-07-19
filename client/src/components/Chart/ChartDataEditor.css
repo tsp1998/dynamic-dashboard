@@ -1,0 +1,34 @@
+.chart-data-editor {
+  margin: 10px 20px;
+  padding: 20px;
+  min-height: 400px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .2), -2px -2px 5px rgba(0, 0, 0, .1);
+  border-radius: 5px;
+}
+
+.chart-container {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-container>* {
+  margin: 5px 10px;
+}
+
+.chart-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart-item>* {
+  margin: 5px 10px;
+}
+
+.chart-item>input {}
